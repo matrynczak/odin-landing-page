@@ -1,0 +1,163 @@
+body {
+    margin: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.header, .footer {
+    background-color: #1f2937;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 0 80px 0 80px;
+}
+
+.nav-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-placeholder {
+    background-color: gray;
+    width: 50%;
+    height: 230px;
+    margin-left: 50px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.reg-button {
+    color: white;
+    background-color: #3882f6;
+    width: 100px;
+    height: 25px;
+    border-radius: 5px;
+    border: none;
+}
+
+.bottom {
+    border: solid 2px white;
+}
+
+h1 {
+    font-size: 48px;
+    margin: 0;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.reg-text {
+    width: 50%;
+}
+
+.reg-desc {
+    font-size: 18px;
+}
+
+.reg-title {
+    font-size: 48px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.header-links {
+    display: flex;
+    gap: 20px;
+}
+
+.qoute {
+    background-color: #e5e7eb;
+}
+
+.text {
+    padding: 100px 50px 0 100px;
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937;
+    font-weight: lighter;
+}
+
+.author {
+    text-align: end;
+    padding-right: 100px;
+    padding-bottom: 80px;
+    font-weight: bold;
+}
+
+.registration-top {
+    display: flex;
+    padding: 70px 0 70px 0;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    padding: 25px 0 50px 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 7%;
+}
+
+.card {
+    border: solid 2px #3882f2;
+    width: 150px;
+    height: 150px;
+    border-radius: 10px;
+}
+
+.card-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 150px;
+    text-align: center;
+}
+
+.info-text {
+    font-size: x-large;
+    text-align: center;
+    margin-bottom: 3%;
+    font-weight: bold;
+}
+
+.registration-bottom {
+    display: flex;
+    background-color: #3882f2;
+    border-radius: 5px;
+    height: 120px;
+    justify-content: space-evenly;
+    margin: 5% 10% 5% 10%;
+    align-items: center;
+}
+
+.frame-title {
+    font-weight: bold;
+    color: white;
+    margin-bottom: -3%;
+}
+
+.frame-text {
+    color: white;
+}
+
+.footer {
+    background-color: #1f2937;
+    height: auto;
+    color: white;
+    text-align: center;
+    padding: 25px;
+}
+
+.logo {
+    font-weight: bolder;
+    font-size: 24px;
+}
